@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "MBmarketing&Business",
-    "currentPage": "contattaci.html",
+    "currentPage": "chisono.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -31,7 +31,7 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.6.5",
-    "uniqCompNum": 12,
+    "uniqCompNum": 14,
     "versionPublish": "4.7.0",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -48,7 +48,7 @@
       "settings": {
         "meta_descr": "Contact form",
         "title": "Contattaci",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -132,7 +132,7 @@
       "settings": {
         "meta_descr": "Website Creator Description",
         "title": "Chiedi un preventivo",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -186,7 +186,7 @@
       "settings": {
         "meta_descr": "Site Creator Description",
         "title": "scegli il corso",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -320,6 +320,71 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "chisono.html": {
+      "settings": {
+        "meta_descr": "Web Site Generator Description",
+        "title": "Chi Sono",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-right": "4rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-figure": {
+                "padding-bottom": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content6",
+          "_customHTML": "<section class=\"mbr-section content6\" group=\"Article\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n      <input type=\"range\" inline title=\"Superiore\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n      <input type=\"range\" inline title=\"Inferiore\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n      <input type=\"range\" inline title=\"Dimensione dei Media\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"60\">\n      <input type=\"color\" title=\"Colore di sfondo\" name=\"bgColor\" value=\"#e4d295\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n    \n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                      <img src=\"@PROJECT_PATH@/assets/images/marta-436x440.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b>Chi sono:</b>&nbsp;\" Mi chiamo Marta Bassi, sono una freelance che ha fatto dei Social Media un eccellente strumento di lavoro. Seguendo sempre corsi di aggiornamento riesco ad implementare il pacchetto clienti personale e aiuto piccoli e medi imprenditori a cercare nuovi clienti , lanciare brand creando apposite campagne marketing, affiancare startup nel processo di immissione nel mercato. <br>Mi occupo inoltre della gestione vendite : individuazione della clientela, segmentazione, specifiche esigenze del consumatore, in concomitanza con gli obbiettivi e le strategie del brand in termini di marketing e comunicazione. \n<br>La mia Mission è quella di seguire il cliente sia nella fase di progettazione grafica, realizzazione e post vendita. Il cliente deve sempre essere soddisfatto del prodotto e del servizio fornito dall'azienda, con competenza e professionalità\".</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qOVOa5jfGi",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content6-c"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            "@media (min-width: 992px)": {
+              ".mbr-figure": {
+                "padding-left": "4rem"
+              }
+            },
+            "@media (max-width: 992px)": {
+              ".mbr-figure": {
+                "padding-top": "1rem"
+              }
+            },
+            ".mbr-text": {
+              "color": "#767676"
+            }
+          },
+          "_name": "content7",
+          "_customHTML": "<section class=\"mbr-section content7\" group=\"Article\">\n          \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->   \n        <input type=\"range\" inline title=\"Superiore\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Inferiore\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Dimensione dei Media\" name=\"mediaSize\" min=\"10\" max=\"200\" step=\"5\" value=\"110\">\n        <input type=\"color\" title=\"Colore di sfondo\" name=\"bgColor\" value=\"#e4d295\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"col-12 col-md-8\">\n                <div class=\"media-container-row\">\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text align-right mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b>Con chi lavoro:&nbsp;</b>&nbsp;Un Team di professionisti appassionati del settore Web Marketing, mi affianca in ogni processo di studio e valutazione, dalla grafica e creazione loghi, alla realizzazione di siti web responsive per ogni esigenza. Ogni collaboratore è prezioso e indispensabile per me e per i miei clienti.</p>\n                        </div>\n                    </div>\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\">\n                     <img src=\"@PROJECT_PATH@/assets/images/paper-3213924-436x275.jpg\" alt=\"Mobirise\" title>  \n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qOVPwWfPrT",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content7-d"
         }
       ]
     }
